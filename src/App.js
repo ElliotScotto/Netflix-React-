@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       {data.map((elem, index) => {
-        return <Section />;
+        return <Section category={elem.category} />;
       })}
       {/* <div className="section">
         <p>Titre de la Catégorie</p>

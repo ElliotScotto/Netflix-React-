@@ -1,8 +1,11 @@
+import Caroussel from "./Caroussel";
 const Section = (props) => {
   return (
     <div>
-      <h2>Test Catégorie</h2>
-      <p>"Test image"</p>
+      <h2>{props.category}</h2>
+      <div className="caroussel">
+        <Caroussel className="caroussel" />
+      </div>
     </div>
   );
 };

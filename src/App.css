@@ -9,6 +9,15 @@ p {
 }
 .section {
 }
-
+h2 {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.caroussel {
+  border: solid 1px black;
+  height: 140px;
+  background-color: aqua;
+}
 .moviepics {
 }
