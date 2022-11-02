@@ -1,23 +1,30 @@
-* {
-  /* background-color: black; */
-}
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  color: white;
-}
-.section {
-}
-h2 {
-  color: white;
+body {
   background-color: black;
   padding: 10px;
 }
+header img {
+  height: 150px;
+  align-items: center;
+}
+.section {
+}
+
+h2 {
+  color: white;
+  font-family: Tahoma, sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
 .caroussel {
-  border: solid 1px black;
+  display: flex;
+  height: 170px;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+.caroussel ::-webkit-scrollbar {
+}
+/* .picmovie {
+  border: solid pink 1px;
   height: 140px;
-  background-color: aqua;
-}
-.moviepics {
-}
+  width: 280px;
+} */

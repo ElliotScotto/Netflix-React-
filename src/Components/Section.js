@@ -1,12 +1,22 @@
-import Caroussel from "./Caroussel";
+// import Caroussel from "./Caroussel";
+import data from "../data.json";
+
 const Section = (props) => {
   return (
-    <div>
+    <>
       <h2>{props.category}</h2>
-      <div className="caroussel">
-        <Caroussel className="caroussel" />
+      <div className="picmovie">
+        {data.map((elem, index) => {
+          return (
+            <div>
+              {data.map((elem, index) => {
+                return <p key={index}>{elem.images}</p>;
+              })}
+            </div>
+          );
+        })}
       </div>
-    </div>
+    </>
   );
 };
 export default Section;
