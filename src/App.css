@@ -18,13 +18,13 @@ h2 {
 .caroussel {
   display: flex;
   height: 170px;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
   margin-bottom: 20px;
 }
-.caroussel ::-webkit-scrollbar {
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.caroussel::-webkit-scrollbar {
+  display: none;
 }
-/* .picmovie {
-  border: solid pink 1px;
-  height: 140px;
-  width: 280px;
-} */

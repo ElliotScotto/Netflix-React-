@@ -30,13 +30,6 @@ function App() {
           </div>
         );
       })}
-
-      {/* <div className="section">
-        <p>Titre de la Catégorie</p>
-        <div className="carrousel">
-          <div className="moviepic"></div>
-        </div>
-      </div> */}
     </>
   );
 }
